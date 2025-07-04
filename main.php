@@ -1,11 +1,11 @@
 <?php
 set_time_limit(600);
 echo "working";
-$token = "6560486266:AAEfFQQpV4tOK9tp0uYZRn2oKmsHQqblDr8";
+$token = "7140060891:AAE54_n94mL2xXvvbBIVbhd10ppgvWO2Ons";
 $data = file_get_contents("php://input");
 $bot = json_decode($data,true);
-$admin = 6388548761;
-$botu = "lucky_otp_bot";
+$admin = 1862385036;
+$botu = "OTPBypassSMHBot";
 $fapi = "16c39e3a2f8880754611sjjsjsdd08750d0";
 $mid = "PJupsY798878030806";
 $sd = "5sim.net";
